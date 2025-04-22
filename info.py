@@ -36,7 +36,7 @@ if len(BOT_TOKEN) == 0:
 PORT = int(environ.get('PORT', '8080'))
 
 # Add your images to "imgs" folder in this repo (https://github.com/HA-Bots/Auto-Filter-Bot/tree/main/imgs)
-PICS = [os.path.join('imgs', file) for file in os.listdir('https://graph.org/file/17a4252f94fe87968ce2b-82b279d701b12dca5e.jpg https://graph.org/file/e90a7b2b6412fcb0bf48d-24f45b8d1a37ebbfef.jpg https://graph.org/file/61b553c54139d0175fca1-88ee3fac5f8b34aee6.jpg')]
+PICS = [os.path.join('imgs', file) for file in os.listdir('')]
 
 # Bot Admins
 ADMINS = environ.get('ADMINS', '6964203412 1886258592')
